@@ -18,7 +18,7 @@ Creation of bank account system with object-oriented concepts in JavaScript.
 
 •	this.(nome da variável): this se relaciona com quem realizou a operação.
 
-•	#: colocar esse símbolo antes do atributo o torna privado. Com isso, o elemento com a “#” não pode ser alterado. No entanto, essa funcionalidade ainda é apenas uma proposta de JS, não tendo passaod pela aprovação final. Esse link contém a proposta para essa funcionalidade: [Flex Grid] (https://github.com/tc39/proposal-class-fields#private-fields). 
+•	#: colocar esse símbolo antes do atributo o torna privado. Com isso, o elemento com a “#” não pode ser alterado. No entanto, essa funcionalidade ainda é apenas uma proposta de JS, não tendo passaod pela aprovação final. Esse link contém a proposta para essa funcionalidade: https://github.com/tc39/proposal-class-fields#private-fields. 
 
 •	_: convenção em JS que se esse símbolo aparecer antes de um atributo, significa que tal atributo é privado e não deve ser alterado.
 
@@ -47,7 +47,7 @@ Creation of bank account system with object-oriented concepts in JavaScript.
 •	Tipos não primitivos: são mutáveis por natureza e podem conter uma estrutura de dados grande e complexa. Exemplos: objetos, arrays, etc. Quando esses tipos são declarados, eles fazem referência ao espaço de memória onde uma variável está guardada. São sempre passados por referência. Essa variável "guarda" um objeto para um método dentro do JS, ou seja, o que é passado é apenas o endereço de memória que aquela função deve usar para acessar os valores do objeto.
 o	Heap: quando um objeto dentro do JS é criado, ele reserva um espaço de memória no local, que é o chamado “Heap”. Ao fazer isso, o que o objeto guarda na variável criada não é o valor do objeto e sim o endereço de memória onde os valores estão salvos.
 
-•	Tipos primitivos x não primitivos: [Flex Grid] (https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239). 
+•	Tipos primitivos x não primitivos: https://medium.com/@ethannam/javascripts-memory-model-7c972cd2c239. 
 
 •	undefined: não definido.
 
