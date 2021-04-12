@@ -25,6 +25,8 @@ Creation of bank account system with object-oriented concepts in JavaScript.
 •	Método: sinônimo de função. Define o que um objeto sabe fazer, define seu comportamento, a maneira de fazer algo. Pode receber qualquer quantidade de parâmetros. Exemplo:
   - <img>![image](https://user-images.githubusercontent.com/60974082/113928121-bcb08000-97c4-11eb-9ae0-db12a2b34c69.png)</img>
 
+  - Método abstrato: não é feito para ser chamado diretamente, e sim sobrescrito.
+
 •	return: para a operação onde ele ocorre.
 
 •	export (nome da funcionalidade): exporta um módulo, uma funcionalidade, um arquivo.
@@ -59,6 +61,29 @@ o	Heap: quando um objeto dentro do JS é criado, ele reserva um espaço de memó
 
 •	Instanceof: nova instância.
 
+•	(nome do objeto) instanceof (nome da função): pergunta se um comando é uma instância de uma função (ou outro objeto).
+
 •	constructor (): é uma função especial para criar e inicializar um objeto criado a partir de uma classe, e recebe esse nome específico de “constructor”. Ele facilita a compreensão do código.
+  - É uma boa prática de JS que todas as classes devem ser declaradas dentro de um “constructr()”. Na documentação do JS consta essa informação.
 
 •	static (nome do atributo): torna o valor do atributo estático, não mutável.
+
+•	extends: é usado para trazer os comandos de uma outra classe para a classe em questão. Exemplo:
+  - <img>![image](https://user-images.githubusercontent.com/60974082/114458727-f236de00-9bb5-11eb-82e4-34fc80972e0f.png)</img>
+
+•	Herança: quando uma classe herda informações de outra classe. É o que o comando “extends” ajuda a criar. Se um comando que existe na classe pai for repetido na classe filha, mas esta última fizer modificações nesse comando, o que prevalece é o comando da classe filha. Esse procedimento é chamado de “especialização”.
+  - Classes filhas podem se utilizar de atributos privados da classe pai.
+
+•	super(): chama o “constructor()” da classe pai.
+
+•	console.erro(): gera um erro no console.
+
+•	throw new Error(): cria um erro que efetivamente para o programa, caso uma condição específica seja realizada.
+
+•	Polimorfismo: é o princípio pelo qual duas ou mais classes derivadas de uma mesma classe podem invocar métodos que têm a mesma identificação (assinatura) mas comportamentos distintos. Ou seja, o polimorfismo permite tratar objetos distintos de forma semelhante.
+
+•	“(nome da chave)” in (nome objeto): verifica se uma chave existe dentro de um objeto.
+
+•	Ducky typing: é comum em lingugagens fracamento tipadas. Ex do pato: se o objeto anda como um pato e atua como um pato, não interessa se ele é um pato efetivamente. Ou seja, não interessa o tipo dele, mas sim o que ele consegue fazer.
+
+•	Encapsulamento: é usado quando se quer proteger as propriedades e atributos que são sensíveis a uma classe.
