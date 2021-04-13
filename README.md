@@ -1,5 +1,5 @@
 # JavaScript_Programming_Object_Orientation
-Creation of bank account system with object-oriented concepts in JavaScript.
+Creation of bank account system and registration of employees with object-oriented concepts in JavaScript.
 
 # Conceitos e Funcionalidades
 
